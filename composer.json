@@ -1,0 +1,16 @@
+{
+  "name": "Marry/ml",
+  "description": "Marry framework",
+  "keywords": [
+    "php"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Marry\\":"vendor/marry",
+      "App\\": "app"
+    }
+  },
+  "require": {
+    "php": ">=7.0"
+  }
+}
